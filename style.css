@@ -5,11 +5,8 @@ body {
   margin: 0;
   padding: 0;
 }
-header #habilities{
-    font-weight: bold;
-}
 
-header #title {
+#title {
     font-weight: bold;
 }
 
@@ -18,6 +15,12 @@ header #name {
     color: #d43838;
 }
 
-main #title {
-    font-weight: bold;
+
+#link-github {
+    color: #000000;
+    text-decoration: none;
+}
+#link-github:hover {
+    transition: color 0.2s ease;
+    color: #d43838;
 }
